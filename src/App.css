@@ -33,17 +33,18 @@
 }
 
 .like-btn {
-  background-color: #ff4081;
+  background: linear-gradient(45deg, #8e2de2, #4a00e0);
   color: white;
   border: none;
   padding: 10px 20px;
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 .like-btn:hover {
-  background-color: #e7356e;
+  background: linear-gradient(45deg, #4a00e0, #8e2de2);
 }
 
 .like-count {
@@ -57,7 +58,7 @@
 }
 
 button {
-  background-color: #007bff;
+  background-color: #4a90e2;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -67,7 +68,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #357ABD;
 }
 
 /* Modal Styling */

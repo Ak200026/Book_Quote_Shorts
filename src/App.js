@@ -39,7 +39,7 @@ const App = () => {
     setLikes(updatedLikes);
 
     setLikedQuote(quotesData[currentIndex]); // Store the liked quote
-    setIsModalOpen(true); // Open the modal
+    // setIsModalOpen(true); // Open the modal
   };
 
   // Close the modal
